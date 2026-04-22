@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "syngen"
+version = "0.1.0"
+description = "Syngen: prompt-to-synthetic tabular dataset generator with GAN+AE backends"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26,<3.0",
+  "pandas>=2.2,<3.0",
+  "scipy>=1.11,<2.0",
+  "kagglehub>=0.3.12",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3,<9.0",
+  "ruff>=0.7.0",
+]
+llm = [
+  "openai>=1.50.0",
+]
+gui = [
+  "PySide6>=6.7,<7",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["F", "I"]

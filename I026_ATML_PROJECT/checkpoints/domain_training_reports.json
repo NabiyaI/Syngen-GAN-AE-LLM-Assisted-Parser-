@@ -1,0 +1,218 @@
+{
+  "telecom": {
+    "ae_final_mse": 0.09024569392204285,
+    "gan_final_d_loss": 1.1717662811279297,
+    "gan_final_g_loss": 0.8666362762451172,
+    "config": {
+      "latent_dim": 16,
+      "noise_dim": 16,
+      "hidden_dim": 128,
+      "ae_epochs": 8,
+      "gan_epochs": 10,
+      "batch_size": 128,
+      "lr_ae": 0.001,
+      "lr_g": 0.0001,
+      "lr_d": 0.0002,
+      "device": "cpu",
+      "seed": 42
+    }
+  },
+  "insurance": {
+    "ae_final_mse": 0.11714363843202591,
+    "gan_final_d_loss": 1.2224247455596924,
+    "gan_final_g_loss": 0.8174095153808594,
+    "config": {
+      "latent_dim": 16,
+      "noise_dim": 16,
+      "hidden_dim": 128,
+      "ae_epochs": 8,
+      "gan_epochs": 10,
+      "batch_size": 128,
+      "lr_ae": 0.001,
+      "lr_g": 0.0001,
+      "lr_d": 0.0002,
+      "device": "cpu",
+      "seed": 42
+    }
+  },
+  "education": {
+    "ae_final_mse": 0.11681700497865677,
+    "gan_final_d_loss": 1.1958714723587036,
+    "gan_final_g_loss": 0.9013537764549255,
+    "config": {
+      "latent_dim": 16,
+      "noise_dim": 16,
+      "hidden_dim": 128,
+      "ae_epochs": 8,
+      "gan_epochs": 10,
+      "batch_size": 128,
+      "lr_ae": 0.001,
+      "lr_g": 0.0001,
+      "lr_d": 0.0002,
+      "device": "cpu",
+      "seed": 42
+    }
+  },
+  "saas": {
+    "ae_final_mse": 0.12606485188007355,
+    "gan_final_d_loss": 1.1712651252746582,
+    "gan_final_g_loss": 0.7843475341796875,
+    "config": {
+      "latent_dim": 16,
+      "noise_dim": 16,
+      "hidden_dim": 128,
+      "ae_epochs": 8,
+      "gan_epochs": 10,
+      "batch_size": 128,
+      "lr_ae": 0.001,
+      "lr_g": 0.0001,
+      "lr_d": 0.0002,
+      "device": "cpu",
+      "seed": 42
+    }
+  },
+  "logistics": {
+    "ae_final_mse": 0.10115587711334229,
+    "gan_final_d_loss": 1.1599955558776855,
+    "gan_final_g_loss": 0.8620550632476807,
+    "config": {
+      "latent_dim": 16,
+      "noise_dim": 16,
+      "hidden_dim": 128,
+      "ae_epochs": 8,
+      "gan_epochs": 10,
+      "batch_size": 128,
+      "lr_ae": 0.001,
+      "lr_g": 0.0001,
+      "lr_d": 0.0002,
+      "device": "cpu",
+      "seed": 42
+    }
+  },
+  "manufacturing": {
+    "ae_final_mse": 0.09899543225765228,
+    "gan_final_d_loss": 1.171893835067749,
+    "gan_final_g_loss": 0.8565780520439148,
+    "config": {
+      "latent_dim": 16,
+      "noise_dim": 16,
+      "hidden_dim": 128,
+      "ae_epochs": 8,
+      "gan_epochs": 10,
+      "batch_size": 128,
+      "lr_ae": 0.001,
+      "lr_g": 0.0001,
+      "lr_d": 0.0002,
+      "device": "cpu",
+      "seed": 42
+    }
+  },
+  "energy": {
+    "ae_final_mse": 0.1104973778128624,
+    "gan_final_d_loss": 1.201798677444458,
+    "gan_final_g_loss": 0.8483556509017944,
+    "config": {
+      "latent_dim": 16,
+      "noise_dim": 16,
+      "hidden_dim": 128,
+      "ae_epochs": 8,
+      "gan_epochs": 10,
+      "batch_size": 128,
+      "lr_ae": 0.001,
+      "lr_g": 0.0001,
+      "lr_d": 0.0002,
+      "device": "cpu",
+      "seed": 42
+    }
+  },
+  "hospitality": {
+    "ae_final_mse": 0.2070651650428772,
+    "gan_final_d_loss": 1.626967191696167,
+    "gan_final_g_loss": 0.733081042766571,
+    "config": {
+      "latent_dim": 16,
+      "noise_dim": 16,
+      "hidden_dim": 128,
+      "ae_epochs": 8,
+      "gan_epochs": 10,
+      "batch_size": 128,
+      "lr_ae": 0.001,
+      "lr_g": 0.0001,
+      "lr_d": 0.0002,
+      "device": "cpu",
+      "seed": 42
+    }
+  },
+  "agriculture": {
+    "ae_final_mse": 0.1150035560131073,
+    "gan_final_d_loss": 1.264556646347046,
+    "gan_final_g_loss": 0.8106014132499695,
+    "config": {
+      "latent_dim": 16,
+      "noise_dim": 16,
+      "hidden_dim": 128,
+      "ae_epochs": 8,
+      "gan_epochs": 10,
+      "batch_size": 128,
+      "lr_ae": 0.001,
+      "lr_g": 0.0001,
+      "lr_d": 0.0002,
+      "device": "cpu",
+      "seed": 42
+    }
+  },
+  "government": {
+    "ae_final_mse": 0.10136604309082031,
+    "gan_final_d_loss": 1.185745358467102,
+    "gan_final_g_loss": 0.8524311780929565,
+    "config": {
+      "latent_dim": 16,
+      "noise_dim": 16,
+      "hidden_dim": 128,
+      "ae_epochs": 8,
+      "gan_epochs": 10,
+      "batch_size": 128,
+      "lr_ae": 0.001,
+      "lr_g": 0.0001,
+      "lr_d": 0.0002,
+      "device": "cpu",
+      "seed": 42
+    }
+  },
+  "cybersecurity": {
+    "ae_final_mse": 0.09814421087503433,
+    "gan_final_d_loss": 1.1984333992004395,
+    "gan_final_g_loss": 0.8533501029014587,
+    "config": {
+      "latent_dim": 16,
+      "noise_dim": 16,
+      "hidden_dim": 128,
+      "ae_epochs": 8,
+      "gan_epochs": 10,
+      "batch_size": 128,
+      "lr_ae": 0.001,
+      "lr_g": 0.0001,
+      "lr_d": 0.0002,
+      "device": "cpu",
+      "seed": 42
+    }
+  },
+  "media": {
+    "ae_final_mse": 0.11778704822063446,
+    "gan_final_d_loss": 1.2238972187042236,
+    "gan_final_g_loss": 0.8480417132377625,
+    "config": {
+      "latent_dim": 16,
+      "noise_dim": 16,
+      "hidden_dim": 128,
+      "ae_epochs": 8,
+      "gan_epochs": 10,
+      "batch_size": 128,
+      "lr_ae": 0.001,
+      "lr_g": 0.0001,
+      "lr_d": 0.0002,
+      "device": "cpu",
+      "seed": 42
+    }
+  }
+}

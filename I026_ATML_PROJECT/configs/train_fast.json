@@ -1,0 +1,10 @@
+{
+  "latent_dim": 16,
+  "noise_dim": 16,
+  "hidden_dim": 128,
+  "ae_epochs": 10,
+  "gan_epochs": 20,
+  "batch_size": 256,
+  "seed": 42
+}
+
